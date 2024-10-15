@@ -21,7 +21,7 @@ tone_buffer = generate_tone(frequency, sample_rate, 5)
 
 def callback(outdata, frames, time, status):
     if status:
-        print(status)  # print any status messages
+        print(status)  
     outdata[:] = tone_buffer[:frames] 
 
 with sd.OutputStream(samplerate=sample_rate, channels=1, callback=callback, blocksize=1024):
