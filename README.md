@@ -5,7 +5,9 @@ Whenever it’s not playing audio, a humming noise is present. However, when nor
 
 ## Installation
 Binaries are available on the [releases page](https://github.com/rodhfr/fix-my-audio/releases)
+
 Just click and fix your speaker
+
 Place the .exe on Startup Folder on Windows to autostart upon user login.
 
 ### Code
