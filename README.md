@@ -5,6 +5,7 @@ Whenever it’s not playing audio, a humming noise is present. However, when nor
 
 ## Installation
 The windows executable is generated with pytinstaller.
+
 Place the .exe on Startup Folder on Windows to autostart upon user login.
 
 ### Code
